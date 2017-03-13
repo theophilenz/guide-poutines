@@ -1,0 +1,36 @@
+//Modèle de API de restaurants de Poutines et offres de poutines dans le monde. Projet #guidepoutines
+[{ //Infos sur l'établissement
+    "nom": "STRING",
+    "livraison": true, //BOOL
+    "description": "STRING",
+    "coord": {
+        "adresse": "STRING",
+        "ville": "STRING",
+        "code_postal": "STRING",
+        "province": "STRING"
+    },
+    "liens": {
+        "facebook": "STRING",
+        "site_web": "STRING"
+    },
+    "heures_ouv": {
+        "lundi": "STRING",
+        "mardi": "STRING",
+        "mercredi": "STRING",
+        "jeudi": "STRING",
+        "vendredi": "STRING",
+        "samedi": "STRING",
+        "dimanche": "STRING"
+    },
+    "particularites": ["ARRAY"],
+    "menu_poutines": [{
+        "nom": "STRING",
+        "ingredients": ["ARRAY"],
+        "formats_prix": [
+            ["format1", 1],
+            ["format2", 2]
+        ],
+        "commentaires_speciaux": ["ARRAY"],
+        "extras_possibles": ["ARRAY"]
+    }]
+}]
