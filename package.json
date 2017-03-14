@@ -1,0 +1,23 @@
+{
+    "name": "guidepoutines",
+    "version": "1.0.0",
+    "description": "Guide des poutines du monde entier",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/theophilenz/guide-poutines.git"
+    },
+    "author": "Theophile Nzungize",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/theophilenz/guide-poutines/issues"
+    },
+    "homepage": "https://github.com/theophilenz/guide-poutines#readme",
+    "dependencies": {
+        "express": "^4.15.2"
+    }
+}
