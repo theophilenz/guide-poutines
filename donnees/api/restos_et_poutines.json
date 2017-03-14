@@ -1,0 +1,394 @@
+[{
+    "nom": "Frit's Burgers & Poutines",
+    "reservation": false,
+    "img": "resto-generique.png",
+    "livraison": true,
+    "description": "Frites Fraîches maison - Boeuf pur à 100% - Sauces ultra savoureuses - Huile de canola de qualité",
+    "coord": {
+        "adresse": "2360 chemin Ste-Foy",
+        "ville": "Québec",
+        "province": "QC",
+        "code_postal": "G1V 4H2",
+        "tel": "(418) 780-2022"
+    },
+    "liens": {
+        "facebook": "https://www.facebook.com/FritsBurgersPoutines",
+        "site_web": "http://www.fritsburgerspoutines.com"
+    },
+    "heures_ouv": {
+        "lundi": "10h-23h",
+        "mardi": "10h-23h",
+        "mercredi": "10h-23h",
+        "jeudi": "10h-4h",
+        "vendredi": "10h-4h",
+        "samedi": "10h-4h",
+        "dimanche": "10h-23h"
+    },
+    "particularites": ["Dans la pyramide à Sainte-Foy"],
+    "menu_poutines": [{
+        "nom": "Général Tao",
+        "ingredients": ["Frites", "Poulet général Tao", "Fromage en grain", "Sauce"],
+        "img": "pout-generique.png",
+        "formats_prix": [
+            ["Petit", 7.95],
+            ["Moyen", 9.95],
+            ["Grand", 11.95]
+        ],
+        "commentaires_speciaux": ["Offert en trio"],
+        "extras_possibles": ["Oui"],
+        "avis": [{
+            "nom": "Mr Générique",
+            "critique": "Ceci est un commmentaire généré à des fins de développement. Ne pas utiliser pour des vrais critiques",
+            "note_sauce": 5,
+            "note_frites": 4,
+            "note_fromage": 3,
+            "note_fraicheur": 5,
+            "note_originalite": 5,
+            "note_autres_ingredients": 5,
+            "note_service": 5,
+            "note_propreté": 5
+        }, {
+            "nom": "Mme Generique",
+            "critique": "Ceci est un commmentaire généré par Mme Générique à des fins de développement. Ne pas utiliser pour des vrais critiques",
+            "note_sauce": 5,
+            "note_frites": 4,
+            "note_fromage": 5,
+            "note_fraicheur": 4,
+            "note_originalite": 5,
+            "note_autres_ingredients": 4,
+            "note_service": 5,
+            "note_propreté": 5
+        }]
+    }]
+}, {
+    "nom": "Ti-Oui Snack Bar",
+    "reservation": false,
+    "img": "resto-generique.png",
+    "livraison": false,
+    "description": "Ti-Oui Snack Bar est un casse-croûte offrant à ses clients un service dynamique, rapide et de qualité depuis plus de 40 ans.",
+    "coord": {
+        "adresse": "201 Avenue Saint-Jacques",
+        "ville": "Saint-Raymonf",
+        "province": "QC",
+        "code_postal": " G3L 3Y6",
+        "tel": "(418)337-2921"
+    },
+    "liens": {
+        "facebook": "https://www.facebook.com/tiouisnackbar",
+        "site_web": "https://www.facebook.com/tiouisnackbar"
+    },
+    "heures_ouv": {
+        "lundi": "11h00–22h00",
+        "mardi": "11h00–22h00",
+        "mercredi": "11h00–22h00",
+        "jeudi": "11h00–23h00",
+        "vendredi": "11h00–00h00",
+        "samedi": "11h00–23h00",
+        "dimanche": "11h00–22h00"
+    },
+    "particularites": ["Fermé en saison hivernale", "Terrasse"],
+    "menu_poutines": [{
+        "nom": "La poutine Ti-Oui",
+        "ingredients": ["Sauce", "Frites", "Fromage en grains frais"],
+        "img": "pout-generique.png",
+        "formats_prix": [
+            ["Variable", "5-15"]
+        ],
+        "commentaires_speciaux": ["Sauce de première qualité"],
+        "extras_possibles": ["Oui"],
+        "avis": [{
+            "nom": "Mr Générique",
+            "critique": "J'aime beaucoup Saint-Raymond et leur casse-croûte. (Commentaire automatiquement généré pour développement)",
+            "note_sauce": 5,
+            "note_frites": 4,
+            "note_fromage": 3,
+            "note_fraicheur": 5,
+            "note_originalite": 5,
+            "note_autres_ingredients": 5,
+            "note_service": 5,
+            "note_propreté": 5
+        }, {
+            "nom": "Mme Generique",
+            "critique": "Ceci est un commmentaire généré par Mme Générique à des fins de développement. Ne pas utiliser pour des vrais critiques",
+            "note_sauce": 5,
+            "note_frites": 4,
+            "note_fromage": 5,
+            "note_fraicheur": 4,
+            "note_originalite": 5,
+            "note_autres_ingredients": 4,
+            "note_service": 5,
+            "note_propreté": 5
+        }]
+    }]
+}, {
+    "nom": "Snack Bar Saint-Jean",
+    "reservation": false,
+    "img": "resto-generique.png",
+    "livraison": false,
+    "description": "La meilleure poutine en ville sur la rue Saint-Jean à Québec. Votre destination pour une fringale ou un fin de soirée bien arrosée",
+    "coord": {
+        "adresse": "780, rue St-Jean",
+        "ville": "Québec",
+        "province": "QC",
+        "code_postal": "G1R 1P9",
+        "tel": "(418)522-GRAS-(4727)"
+    },
+    "liens": {
+        "facebook": "https://www.facebook.com/SnackBarSaintJean",
+        "site_web": "http://www.snackbarsaintjean.com"
+    },
+    "heures_ouv": {
+        "lundi": "10:00-4:00(am)",
+        "mardi": "10:00-4:00(am)",
+        "mercredi": "10:00-4:00(am)",
+        "jeudi": "10:00-5:00(am)",
+        "vendredi": "10:00-5:00(am)",
+        "samedi": "10:00-5:00(am)",
+        "dimanche": "10:00-4:00(am)"
+    },
+    "particularites": ["Wifi", "Bienvenue aux groupes", "Pour emporter", "Terrasse"],
+    "menu_poutines": [{
+        "nom": "Poutine classique",
+        "ingredients": ["Frites", "Sauce", "Fromage en grains"],
+        "img": "pout-generique.png",
+        "formats_prix": [
+            ["Mini", 5.75],
+            ["Petite", 7.50],
+            ["Régulière", 11.99]
+        ],
+        "commentaires_speciaux": ["ARRAY"],
+        "extras_possibles": ["Oui"],
+        "avis": [{
+            "nom": "Mr Générique",
+            "critique": "Ceci est un commmentaire généré à des fins de développement. Ne pas utiliser pour des vrais critiques",
+            "note_sauce": 5,
+            "note_frites": 4,
+            "note_fromage": 3,
+            "note_fraicheur": 5,
+            "note_originalite": 5,
+            "note_autres_ingredients": 5,
+            "note_service": 5,
+            "note_propreté": 5
+        }, {
+            "nom": "Mme Generique",
+            "critique": "Ceci est un commmentaire généré par Mme Générique à des fins de développement. Ne pas utiliser pour des vrais critiques",
+            "note_sauce": 5,
+            "note_frites": 4,
+            "note_fromage": 5,
+            "note_fraicheur": 4,
+            "note_originalite": 5,
+            "note_autres_ingredients": 4,
+            "note_service": 5,
+            "note_propreté": 5
+        }]
+    }]
+}, {
+    "nom": "La Poutinerie",
+    "reservation": false,
+    "img": "resto-generique.png",
+    "livraison": true,
+    "description": "Le Restaurant La Poutinerie vous offre le plus grand choix de poutines à Québec. Avec nos 7 sélections de sauces et nos 35 garnitures de poutines, vous retrouverez près de 250 variétés différentes. C’est une expérience gastronomique unique qui vous attend à chaque visite. En plus de vous offrir de généreuses portions, nos aliments sont frais et savoureux. De plus, nous désservons également un vaste territoire de livraison en plus d’un service rapide et de qualité.",
+    "coord": {
+        "adresse": "292, marie de l’incarnation",
+        "ville": "Québec",
+        "province": "QC",
+        "code_postal": "G1N 3G6",
+        "tel": "418-353-1630"
+    },
+    "liens": {
+        "facebook": "https://www.facebook.com/LaPoutinerie",
+        "site_web": "http://jaimelapoutine.ca"
+    },
+    "heures_ouv": {
+        "lundi": "11h-23h",
+        "mardi": "11h-23h",
+        "mercredi": "11h-23h",
+        "jeudi": "11h-4h",
+        "vendredi": "11h-4h",
+        "samedi": "11h-4h",
+        "dimanche": "11h-23h"
+    },
+    "particularites": ["250 variétés de poutines", "Livraison dans toute la région de Québec"],
+    "menu_poutines": [{
+        "nom": "La classique",
+        "ingredients": ["Frites de première qualité", "Sauce au choix", "Notre excellent fromage"],
+        "img": "generique.png",
+        "formats_prix": [
+            ["Bebe", 6.26],
+            ["Petite", 7.91],
+            ["Moyenne", 10.96],
+            ["Grosse", 14.52]
+        ],
+        "commentaires_speciaux": ["Choix de sauces: Brune, BBQ, poivre, italienne, Buffalo, texane, Jack"],
+        "extras_possibles": ["Fromage", "Sauce", "Frites épicées"],
+        "avis": [{
+            "nom": "Théo",
+            "critique": "Les fois où j'ai été à cette place j'ai toujours aimé leur poutine. Vraiment bonne.",
+            "note_sauce": 5,
+            "note_frites": 5,
+            "note_fromage": 4,
+            "note_fraicheur": 5,
+            "note_originalite": 4,
+            "note_autres_ingredients": 4,
+            "note_service": 5,
+            "note_propreté": 5
+        }, {
+            "nom": "André",
+            "critique": "Quelle bonne poutine et belle place. Toujours une visite plaisante",
+            "note_sauce": 5,
+            "note_frites": 5,
+            "note_fromage": 5,
+            "note_fraicheur": 5,
+            "note_originalite": 4,
+            "note_autres_ingredients": 3,
+            "note_service": 5,
+            "note_propreté": 5
+        }]
+    }, {
+        "nom": "La Spoutnik",
+        "ingredients": ["Frites", " Sauce", "Fromage", "Saucisses fumées"],
+        "img": "pout-generique.png",
+        "formats_prix": [
+            ["Bebe", 7.22],
+            ["Petite", 9.09],
+            ["Moyenne", 12.44],
+            ["Grosse", 16.26]
+        ],
+        "commentaires_speciaux": ["ARRAY"],
+        "extras_possibles": ["ARRAY"],
+        "avis": [{
+            "nom": "Bobby",
+            "critique": "Vraiment bon. Je tripe trop sur la spoutnik pis la place est malade!",
+            "note_sauce": 5,
+            "note_frites": 5,
+            "note_fromage": 5,
+            "note_fraicheur": 5,
+            "note_originalite": 5,
+            "note_autres_ingredients": 5,
+            "note_service": 5,
+            "note_propreté": 5
+        }]
+    }]
+}, {
+    "nom": "Poutineville St-Roch",
+    "reservation": true,
+    "img": "resto-generique.png",
+    "livraison": false,
+    "description": "<p>Dans une atmosphère conviviale, Poutineville offre à ses clients la possibilité de créer leur propre poutine.</p><p> Avec une liste de plus de 40 ingrédients incluant 11 sortes de fromages, quatre différentes sortes de patates et cinq choix de sauces, les possibilités sont infinies.</p>",
+    "coord": {
+        "adresse": "735 Rue Saint-Joseph Est",
+        "ville": "Québec",
+        "province": "QC",
+        "code_postal": "G1K 3C6",
+        "tel": "1-581-981-8188"
+    },
+    "liens": {
+        "facebook": "https://www.facebook.com/poutineville",
+        "site_web": "http://www.poutineville.com"
+    },
+    "heures_ouv": {
+        "lundi": "11h-21h",
+        "mardi": "11h-22h",
+        "mercredi": "11h-22h",
+        "jeudi": "11h-Minuit",
+        "vendredi": "11h-Minuit",
+        "samedi": "11h-Minuit",
+        "dimanche": "11h-21h"
+    },
+    "particularites": ["Réservation", "Choix de bières et alcools", "Créez votre propre poutine"],
+    "menu_poutines": [{
+        "nom": "La Poutineville(spécialité maison)",
+        "ingredients": ["Fromage en grains", "Mozzarella", "Boeuf braisé", "Sauce au vin rouge"],
+        "img": "pout-generique.png",
+        "formats_prix": [
+            ["Régulière", "N/A- Sur Demande"]
+        ],
+        "commentaires_speciaux": ["Option d'entrées possibles. Voir les extras"],
+        "extras_possibles": ["Bâtonnets de fromage", "Cornichons panés", "Ailes de poulet", "Bruschetta avec fromage de chèvre", "Poutinachos au gratin"],
+        "avis": [{
+            "nom": "Marc-Antoine",
+            "critique": "Mon dieu cette poutine est la raison pourquoi je reviens toujours à PoutineVille. Si bon!",
+            "note_sauce": 5,
+            "note_frites": 5,
+            "note_fromage": 5,
+            "note_fraicheur": 5,
+            "note_originalite": 5,
+            "note_autres_ingredients": 5,
+            "note_service": 5,
+            "note_propreté": 5
+        }]
+    }]
+}, {
+    "nom": "Frite Alors! Crémazie Ouest",
+    "reservation": false,
+    "img": "resto-generique.png",
+    "livraison": false,
+    "description": "Frite belge à l’accent québécois. Depuis 25 ans, nos pommes de terre Russet, cultivées au Québec, sont coupées, blanchies et cuites avec amour dans tous nos restaurants selon la méthode belge!",
+    "coord": {
+        "adresse": "122 Crémazie Ouest",
+        "ville": "Québec",
+        "province": "QC",
+        "code_postal": "G1R 1X5",
+        "tel": "(418) 614-5522"
+    },
+    "liens": {
+        "facebook": "https://www.facebook.com/fritealors",
+        "site_web": "http://fritealors.com/quebec/"
+    },
+    "heures_ouv": {
+        "lundi": "11h30-22h",
+        "mardi": "11h30-22h",
+        "mercredi": "11h30-22h",
+        "jeudi": "11h30-22h30",
+        "vendredi": "11h30-Minuit",
+        "samedi": "11h30-Minuit",
+        "dimanche": "11h30-22h"
+    },
+    "particularites": ["Horaire variable été/hiver. Contacter le restaurant au préalable", "Comptoir pour emporter", "36 places assises"],
+    "menu_poutines": [{
+        "nom": "Le Vladimir",
+        "ingredients": ["La poutine classique", "Frites russet de première qualité", "Fromage en grains frais"],
+        "img": "pout-generique.png",
+        "formats_prix": [
+            ["Petit", 6],
+            ["Moyen", 8],
+            ["Grand", 12]
+        ],
+        "commentaires_speciaux": ["Sauce sans gluten"],
+        "extras_possibles": ["Oui"],
+        "avis": [{
+            "nom": "Mr Générique",
+            "critique": "Ceci n'est pas un vrai commentaire, ayant été conçu à des fins de développement",
+            "note_sauce": 5,
+            "note_frites": 5,
+            "note_fromage": 5,
+            "note_fraicheur": 5,
+            "note_originalite": 5,
+            "note_autres_ingredients": 5,
+            "note_service": 5,
+            "note_propreté": 5
+        }]
+    }, {
+        "nom": "La Tunisienne",
+        "ingredients": ["Merguez", "Oignons grillés", "Frites russet de première qualité", "Fromage en grains frais"],
+        "img": "pout-generique.png",
+        "formats_prix": [
+            ["Moyen", 11],
+            ["Grand", 15]
+        ],
+        "commentaires_speciaux": ["Sauce sans gluten"],
+        "extras_possibles": ["Oui"],
+        "avis": [{
+            "nom": "Mr Générique",
+            "critique": "Ceci n'est pas un vrai commentaire, ayant été conçu à des fins de développement pour cette poutine qui a vraiment l'air bonne!",
+            "note_sauce": 5,
+            "note_frites": 5,
+            "note_fromage": 5,
+            "note_fraicheur": 5,
+            "note_originalite": 5,
+            "note_autres_ingredients": 5,
+            "note_service": 5,
+            "note_propreté": 5
+        }]
+    }]
+}]

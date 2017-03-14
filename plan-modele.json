@@ -1,13 +1,17 @@
 //Modèle de API de restaurants de Poutines et offres de poutines dans le monde. Projet #guidepoutines
-[{ //Infos sur l'établissement
+//Infos sur l'établissement
+[{
     "nom": "STRING",
-    "livraison": true, //BOOL
+    "reservation": false,
+    "img": "resto-generique.png",
+    "livraison": true,
     "description": "STRING",
     "coord": {
         "adresse": "STRING",
         "ville": "STRING",
+        "province": "STRING",
         "code_postal": "STRING",
-        "province": "STRING"
+        "tel": "STRING"
     },
     "liens": {
         "facebook": "STRING",
@@ -26,11 +30,36 @@
     "menu_poutines": [{
         "nom": "STRING",
         "ingredients": ["ARRAY"],
+        "img": "pout-generique.png",
         "formats_prix": [
-            ["format1", 1],
-            ["format2", 2]
+            ["Petit", 1],
+            ["Moyen", 2],
+            ["Grand", 2]
         ],
         "commentaires_speciaux": ["ARRAY"],
-        "extras_possibles": ["ARRAY"]
+        "extras_possibles": ["Oui"],
+        "avis": [{
+            "nom": "Mr Générique",
+            "critique": "Ceci est un commmentaire généré à des fins de développement. Ne pas utiliser pour des vrais critiques",
+            "note_sauce": 5,
+            "note_frites": 4,
+            "note_fromage": 3,
+            "note_fraicheur": 5,
+            "note_originalite": 5,
+            "note_autres_ingredients": 5,
+            "note_service": 5,
+            "note_propreté": 5
+        }, {
+            "nom": "Mme Generique",
+            "critique": "Ceci est un commmentaire généré par Mme Générique à des fins de développement. Ne pas utiliser pour des vrais critiques",
+            "note_sauce": 5,
+            "note_frites": 4,
+            "note_fromage": 5,
+            "note_fraicheur": 4,
+            "note_originalite": 5,
+            "note_autres_ingredients": 4,
+            "note_service": 5,
+            "note_propreté": 5
+        }]
     }]
 }]
