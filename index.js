@@ -2,7 +2,8 @@
 var express = require("express");
 //Le module path pour acceder aux fichiers
 var path = require("path");
-
+//Utiliser les routes pour l'API
+var routesAPI = require("./api/routes-api/");
 
 //CONFIGURATION DU SERVEUR
 
@@ -22,6 +23,9 @@ var serveur = application.listen(application.get("port"), function() {
 ///CRÉATION DU SYSTÈME DE ROUTAGE
 //Création d'un middleware
 //middleware: permet d'intéragir avec les requêtes avant que la réponse ne soit donnée
+//Ici ca permettra de connaître les ressources demandées à partir de la console avant d'avancer vers les autres requêtes
+//Toujours placer avant express.static
+
 application.use(function(req, res, next) {
     console.log(req.method, req.url);
     next(); //Permet d'avancer à l'étape suivante
@@ -39,3 +43,5 @@ application.get("/", function(req, res) {
 });
 
 //Routage de l'API
+//Routage de l'API avec .use. Il utilisera le module dans le fichier routes.js dans routes-api.
+application.use("/api", routesAPI);
