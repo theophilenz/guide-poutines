@@ -1,3 +1,5 @@
+//Connexion à la base de données en commençant l'application
+require("./api/donnees/conn_bd");
 //Initialiser tous les modules nécessaires
 var express = require("express");
 //Le module path pour acceder aux fichiers
