@@ -1,5 +1,6 @@
 [{
     "nom": "Frit's Burgers & Poutines",
+    "url": "frit-s-burgers-Poutines",
     "reservation": false,
     "img": "resto-generique.png",
     "livraison": true,
@@ -27,6 +28,7 @@
     "particularites": ["Dans la pyramide à Sainte-Foy"],
     "menu_poutines": [{
         "nom": "Général Tao",
+        "url": "general-tao",
         "ingredients": ["Frites", "Poulet général Tao", "Fromage en grain", "Sauce"],
         "img": "pout-generique.png",
         "formats_prix": [
@@ -62,6 +64,7 @@
     }]
 }, {
     "nom": "Ti-Oui Snack Bar",
+    "url": "ti-oui-snack-bar",
     "reservation": false,
     "img": "resto-generique.png",
     "livraison": false,
@@ -89,6 +92,7 @@
     "particularites": ["Fermé en saison hivernale", "Terrasse"],
     "menu_poutines": [{
         "nom": "La poutine Ti-Oui",
+        "url": "la-poutine-ti-oui",
         "ingredients": ["Sauce", "Frites", "Fromage en grains frais"],
         "img": "pout-generique.png",
         "formats_prix": [
@@ -122,6 +126,7 @@
     }]
 }, {
     "nom": "Snack Bar Saint-Jean",
+    "url": "snack-bar-saint-jean",
     "reservation": false,
     "img": "resto-generique.png",
     "livraison": false,
@@ -149,6 +154,7 @@
     "particularites": ["Wifi", "Bienvenue aux groupes", "Pour emporter", "Terrasse"],
     "menu_poutines": [{
         "nom": "Poutine classique",
+        "url": "poutine-classique",
         "ingredients": ["Frites", "Sauce", "Fromage en grains"],
         "img": "pout-generique.png",
         "formats_prix": [
@@ -156,7 +162,7 @@
             ["Petite", 7.50],
             ["Régulière", 11.99]
         ],
-        "commentaires_speciaux": ["ARRAY"],
+        "commentaires_speciaux": ["Meilleure poutine pour veiller tard!"],
         "extras_possibles": ["Oui"],
         "avis": [{
             "nom": "Mr Générique",
@@ -184,6 +190,7 @@
     }]
 }, {
     "nom": "La Poutinerie",
+    "url": "la-poutinerie",
     "reservation": false,
     "img": "resto-generique.png",
     "livraison": true,
@@ -211,6 +218,7 @@
     "particularites": ["250 variétés de poutines", "Livraison dans toute la région de Québec"],
     "menu_poutines": [{
         "nom": "La classique",
+        "url": "la-classique",
         "ingredients": ["Frites de première qualité", "Sauce au choix", "Notre excellent fromage"],
         "img": "generique.png",
         "formats_prix": [
@@ -246,6 +254,7 @@
         }]
     }, {
         "nom": "La Spoutnik",
+        "url": "la-spoutnik",
         "ingredients": ["Frites", " Sauce", "Fromage", "Saucisses fumées"],
         "img": "pout-generique.png",
         "formats_prix": [
@@ -254,8 +263,8 @@
             ["Moyenne", 12.44],
             ["Grosse", 16.26]
         ],
-        "commentaires_speciaux": ["ARRAY"],
-        "extras_possibles": ["ARRAY"],
+        "commentaires_speciaux": ["Vous tomberez en amour!"],
+        "extras_possibles": ["Oui"],
         "avis": [{
             "nom": "Bobby",
             "critique": "Vraiment bon. Je tripe trop sur la spoutnik pis la place est malade!",
@@ -271,6 +280,7 @@
     }]
 }, {
     "nom": "Poutineville St-Roch",
+    "url": "poutineville-st-roch",
     "reservation": true,
     "img": "resto-generique.png",
     "livraison": false,
@@ -298,6 +308,7 @@
     "particularites": ["Réservation", "Choix de bières et alcools", "Créez votre propre poutine"],
     "menu_poutines": [{
         "nom": "La Poutineville(spécialité maison)",
+        "url": "la-poutineville-specialite-maison",
         "ingredients": ["Fromage en grains", "Mozzarella", "Boeuf braisé", "Sauce au vin rouge"],
         "img": "pout-generique.png",
         "formats_prix": [
@@ -320,6 +331,7 @@
     }]
 }, {
     "nom": "Frite Alors! Crémazie Ouest",
+    "url": "frite-alors-cremazie-ouest",
     "reservation": false,
     "img": "resto-generique.png",
     "livraison": false,
@@ -347,6 +359,7 @@
     "particularites": ["Horaire variable été/hiver. Contacter le restaurant au préalable", "Comptoir pour emporter", "36 places assises"],
     "menu_poutines": [{
         "nom": "Le Vladimir",
+        "url": "le-vladimir",
         "ingredients": ["La poutine classique", "Frites russet de première qualité", "Fromage en grains frais"],
         "img": "pout-generique.png",
         "formats_prix": [
@@ -370,6 +383,7 @@
         }]
     }, {
         "nom": "La Tunisienne",
+        "url": "la-tunisienne",
         "ingredients": ["Merguez", "Oignons grillés", "Frites russet de première qualité", "Fromage en grains frais"],
         "img": "pout-generique.png",
         "formats_prix": [

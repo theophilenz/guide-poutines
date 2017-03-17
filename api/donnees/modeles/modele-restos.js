@@ -142,7 +142,7 @@ var modeleRestos = new mongoose.Schema({
         dimanche: String
     },
     particularites: [String],
-    menu_poutines: [modelePoutines]
+    menu: [modelePoutines]
 });
 
 //Compiler le schéma

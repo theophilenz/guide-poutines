@@ -1,3 +1,4 @@
+//CONTROLLEURS POUR LES RESTOS
 //Demande de la connexion mongoose
 var mongoose = require("mongoose");
 mongoose.promise = global.Promise;
@@ -27,9 +28,27 @@ module.exports.tousRestos = function(req, res) {
 };
 
 module.exports.restoUnique = function(req, res) {
-    var resto = req.params.resto;
-    console.log("On affiche le resto: " + resto);
-    res
-        .status(200)
-        .json(restos[resto]);
+    //Obtenir les infos via les paramètres de recherche
+    var idResto = req.params.idResto;
+    //Obtenir un resto unique par son champ "url"
+    Resto
+        .findById(idResto)
+        .exec(function(err, resto) {
+            console.log("Le restaurant demandé est: " + idResto);
+            if (err) {
+                console.log("Erreur à trouver le resto");
+                res
+                    .status(500)
+                    .json(err);
+            } else if (!resto) {
+                console.log("Aucun resto de la valeur de: " + idResto + " Trouvé");
+                res
+                    .status(404)
+                    .json(err);
+            }
+            res
+                .status(200)
+                .json(resto);
+        });
+
 }
