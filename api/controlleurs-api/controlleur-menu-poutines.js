@@ -2,7 +2,7 @@
 var mongoose = require("mongoose");
 var Resto = mongoose.model("Resto");
 
-//Obtenir un resto unique par son champ "url"
+//Obtenir un resto unique par son champ "id"
 module.exports.tousPoutines = function(req, res) {
     //Obtenir les infos via les paramètres de recherche
     var idResto = req.params.idResto;

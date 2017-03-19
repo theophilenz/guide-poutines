@@ -1,11 +1,11 @@
 //For all the documents
-// db.restos.update({}, {
-//     $set: {
-//         "menu_poutines.0._id": ObjectId()
-//     }
-// }, {
-//     multi: true
-// })
+db.restos.update({}, {
+    $set: {
+        "menu_poutines.0._id": ObjectId()
+    }
+}, {
+    multi: true
+})
 
 //FOR ONE DOCUMENT AT A TIME
 
@@ -19,3 +19,11 @@ db.restos.update({
 
 //Change all the fields
 db.restos.updateMany({}, { $rename: { "menu_poutines": "menu" } })
+
+db.restos.update({}, {
+    $set: {
+        "menu.0.avis.1._id": ObjectId()
+    }
+}, {
+    multi: true
+})
