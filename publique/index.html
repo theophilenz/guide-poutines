@@ -1,15 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="appliPoutines">
 
 <head>
-    <title>Guide Poutines</title>
+    <title>Poutine Guide</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
 </head>
 
 <body>
-    <h1>Bienvenue au guide des poutines!</h1>
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <a href="/" class="logo-site"> <img src="./images/logos/icone.png" class="img-responsive" /></a>
+            <div class="navbar-header">
+                <a href="/" class="navbar-brand"> Poutines Guide</a>
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+            </div>
+            <div class="navbar-collapse collapse" id="navbar-main">
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="http://builtwithbootstrap.com/" target="_blank">Facebook</a></li>
+                    <li><a href="https://wrapbootstrap.com/?ref=bsw" target="_blank">Contact</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="page-header" id="banner">
+            <div class="row">
+                <div class="col-lg-8 col-md-7 col-sm-6">
+                    <h1>Le premier guide complet sur la poutine.</h1>
+                    <p class="lead">Une solution élégante pour découvrir, critiquer et promouvoir la poutine.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="./application/app.js"></script>
 </body>
 
 </html>
