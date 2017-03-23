@@ -29,19 +29,19 @@ module.exports.tousRestos = function(req, res) {
 
 module.exports.restoUnique = function(req, res) {
     //Obtenir les infos via les paramètres de recherche
-    var idResto = req.params.idResto;
+    var urlResto = req.params.urlResto;
     //Obtenir un resto unique par son champ "url"
     Resto
-        .findById(idResto)
+        .where({ 'url': urlResto })
         .exec(function(err, resto) {
-            console.log("Le restaurant demandé est: " + idResto);
+            console.log("Le restaurant demandé est: " + urlResto);
             if (err) {
                 console.log("Erreur à trouver le resto");
                 res
                     .status(500)
                     .json(err);
             } else if (!resto) {
-                console.log("Aucun resto de la valeur de: " + idResto + " Trouvé");
+                console.log("Aucun resto de la valeur de: " + urlResto + " Trouvé");
                 res
                     .status(404)
                     .json(err);

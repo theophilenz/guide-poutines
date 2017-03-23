@@ -34,6 +34,8 @@ application.use(function(req, res, next) {
 });
 //pour servir des fichiers statiques à partir de ce répértoire seulement
 application.use(express.static(path.join(__dirname, "publique")));
+//Délivrer et servir les fichiers angular
+application.use("/node_modules", express.static(__dirname + "/node_modules"));
 
 //Routage de la page d'accueil
 application.get("/", function(req, res) {

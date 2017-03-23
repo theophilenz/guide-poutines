@@ -1,35 +1,38 @@
 {
-    "name": "guidepoutines",
-    "version": "1.0.0",
-    "description": "Guide des poutines du monde entier",
-    "main": "index.js",
-    "scripts": {
-        "start": "node index.js",
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/theophilenz/guide-poutines.git"
-    },
-    "author": "Theophile Nzungize",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/theophilenz/guide-poutines/issues"
-    },
-    "homepage": "https://github.com/theophilenz/guide-poutines#readme",
-    "dependencies": {
-        "express": "^4.15.2",
-        "mongoose": "^4.9.0"
-    },
-    "devDependencies": {
-        "gulp": "^3.9.1",
-        "gulp-autoprefixer": "^3.1.1",
-        "gulp-concat": "^2.6.1",
-        "gulp-livereload": "^3.8.1",
-        "gulp-minify-css": "^1.2.4",
-        "gulp-plumber": "^1.1.0",
-        "gulp-sass": "^3.1.0",
-        "gulp-sourcemaps": "^2.4.1",
-        "gulp-uglify": "^2.0.1"
-    }
+  "name": "guidepoutines",
+  "version": "1.0.0",
+  "description": "Guide des poutines du monde entier",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theophilenz/guide-poutines.git"
+  },
+  "author": "Theophile Nzungize",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theophilenz/guide-poutines/issues"
+  },
+  "homepage": "https://github.com/theophilenz/guide-poutines#readme",
+  "dependencies": {
+    "angular": "^1.6.3",
+    "angular-route": "^1.6.3",
+    "elasticsearch": "^12.1.3",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-uglify": "^2.0.1"
+  }
 }

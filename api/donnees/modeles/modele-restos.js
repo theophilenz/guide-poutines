@@ -17,56 +17,42 @@ var modeleAvis = new mongoose.Schema({
         required: true,
         min: 0,
         max: 5,
-        "default": 3
+        "default": 0
     },
     note_frites: {
         type: Number,
         required: true,
         min: 0,
         max: 5,
-        "default": 3
+        "default": 0
     },
     note_fromage: {
         type: Number,
         required: true,
         min: 0,
         max: 5,
-        "default": 3
+        "default": 0
     },
     note_fraicheur: {
         type: Number,
         required: true,
         min: 0,
         max: 5,
-        "default": 3
+        "default": 0
     },
     note_originalité: {
         type: Number,
         required: true,
         min: 0,
         max: 5,
-        "default": 3
-    },
-    note_autres_ingredients: {
-        type: Number,
-        required: true,
-        min: 0,
-        max: 5,
-        "default": 3
+        "default": 0
     },
     note_service: {
         type: Number,
         required: true,
         min: 0,
         max: 5,
-        "default": 3
-    },
-    note_proprete: {
-        type: Number,
-        required: true,
-        min: 0,
-        max: 5,
-        "default": 3
+        "default": 0
     }
 });
 

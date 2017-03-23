@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="appliPoutines">
+<html lang="en" ng-app="guidepoutines">
 
 <head>
     <title>Poutine Guide</title>
@@ -31,20 +31,18 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid">
-        <div class="page-header" id="banner">
-            <div class="row">
-                <div class="col-lg-8 col-md-7 col-sm-6">
-                    <h1>Le premier guide complet sur la poutine.</h1>
-                    <p class="lead">Une solution élégante pour découvrir, critiquer et promouvoir la poutine.</p>
-                </div>
-            </div>
-        </div>
+    <div class="container-fluid" ng-view>
+
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="./application/app.js"></script>
+    <script src="/node_modules/angular/angular.min.js"></script>
+    <script src="/node_modules/angular-route/angular-route.min.js"></script>
+    <script src="/application/app.js"></script>
+    <script src="/application/accueil/controlleurAccueil.js"></script>
+    <script src="/application/restos/controlleurAfficherResto.js"></script>
+    <script src="/application/factory-donnees/factory-donnees.js"></script>
 </body>
 
 </html>

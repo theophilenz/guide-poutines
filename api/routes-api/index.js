@@ -13,13 +13,13 @@ router
     .route("/restaurants")
     .get(controlleurRestos.tousRestos);
 router
-    .route("/restaurants/:idResto")
+    .route("/restaurants/:urlResto")
     .get(controlleurRestos.restoUnique);
 router
-    .route("/restaurants/:idResto/poutines")
+    .route("/restaurants/:urlResto/poutines")
     .get(controlleurPoutines.tousPoutines);
 router
-    .route("/restaurants/:idResto/poutines/:idPoutine")
+    .route("/restaurants/:urlResto/poutines/:idPoutine")
     .get(controlleurPoutines.unePoutine);
 router
     .route("/restaurants/:idResto/poutines/:idPoutine/avis")

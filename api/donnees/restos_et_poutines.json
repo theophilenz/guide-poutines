@@ -46,9 +46,7 @@
             "note_fromage": 3,
             "note_fraicheur": 5,
             "note_originalite": 5,
-            "note_autres_ingredients": 5,
-            "note_service": 5,
-            "note_propreté": 5
+            "note_service": 5
         }, {
             "nom": "Mme Generique",
             "critique": "Ceci est un commmentaire généré par Mme Générique à des fins de développement. Ne pas utiliser pour des vrais critiques",
@@ -57,9 +55,7 @@
             "note_fromage": 5,
             "note_fraicheur": 4,
             "note_originalite": 5,
-            "note_autres_ingredients": 4,
-            "note_service": 5,
-            "note_propreté": 5
+            "note_service": 5
         }]
     }]
 }, {
@@ -108,9 +104,7 @@
             "note_fromage": 3,
             "note_fraicheur": 5,
             "note_originalite": 5,
-            "note_autres_ingredients": 5,
-            "note_service": 5,
-            "note_propreté": 5
+            "note_service": 5
         }, {
             "nom": "Mme Generique",
             "critique": "Ceci est un commmentaire généré par Mme Générique à des fins de développement. Ne pas utiliser pour des vrais critiques",
@@ -119,9 +113,7 @@
             "note_fromage": 5,
             "note_fraicheur": 4,
             "note_originalite": 5,
-            "note_autres_ingredients": 4,
-            "note_service": 5,
-            "note_propreté": 5
+            "note_service": 5
         }]
     }]
 }, {
@@ -172,9 +164,7 @@
             "note_fromage": 3,
             "note_fraicheur": 5,
             "note_originalite": 5,
-            "note_autres_ingredients": 5,
-            "note_service": 5,
-            "note_propreté": 5
+            "note_service": 5
         }, {
             "nom": "Mme Generique",
             "critique": "Ceci est un commmentaire généré par Mme Générique à des fins de développement. Ne pas utiliser pour des vrais critiques",
@@ -183,9 +173,7 @@
             "note_fromage": 5,
             "note_fraicheur": 4,
             "note_originalite": 5,
-            "note_autres_ingredients": 4,
-            "note_service": 5,
-            "note_propreté": 5
+            "note_service": 5
         }]
     }]
 }, {
@@ -237,9 +225,7 @@
             "note_fromage": 4,
             "note_fraicheur": 5,
             "note_originalite": 4,
-            "note_autres_ingredients": 4,
-            "note_service": 5,
-            "note_propreté": 5
+            "note_service": 5
         }, {
             "nom": "André",
             "critique": "Quelle bonne poutine et belle place. Toujours une visite plaisante",
@@ -248,9 +234,7 @@
             "note_fromage": 5,
             "note_fraicheur": 5,
             "note_originalite": 4,
-            "note_autres_ingredients": 3,
-            "note_service": 5,
-            "note_propreté": 5
+            "note_service": 5
         }]
     }, {
         "nom": "La Spoutnik",
@@ -273,9 +257,7 @@
             "note_fromage": 5,
             "note_fraicheur": 5,
             "note_originalite": 5,
-            "note_autres_ingredients": 5,
-            "note_service": 5,
-            "note_propreté": 5
+            "note_service": 5
         }]
     }]
 }, {
@@ -324,9 +306,7 @@
             "note_fromage": 5,
             "note_fraicheur": 5,
             "note_originalite": 5,
-            "note_autres_ingredients": 5,
-            "note_service": 5,
-            "note_propreté": 5
+            "note_service": 5
         }]
     }]
 }, {
@@ -377,9 +357,7 @@
             "note_fromage": 5,
             "note_fraicheur": 5,
             "note_originalite": 5,
-            "note_autres_ingredients": 5,
-            "note_service": 5,
-            "note_propreté": 5
+            "note_service": 5
         }]
     }, {
         "nom": "La Tunisienne",
@@ -400,9 +378,7 @@
             "note_fromage": 5,
             "note_fraicheur": 5,
             "note_originalite": 5,
-            "note_autres_ingredients": 5,
-            "note_service": 5,
-            "note_propreté": 5
+            "note_service": 5
         }]
     }]
 }]
