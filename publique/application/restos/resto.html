@@ -1,0 +1,28 @@
+<div class="page-header" id="banner">
+    <div class="row">
+        <div class="col-lg-8 col-md-7 col-sm-6">
+            <h1>{{vm.titre}}</h1>
+            <p class="lead">{{vm.resto.coord.adresse}}, {{vm.resto.coord.ville}}, {{vm.resto.coord.tel}}</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-5">
+            <span ng-if="vm.resto.livraison">*Livraison Disponible</span>
+            <span ng-if="vm.resto.reservation">*Réservation nécessaire</span>
+            <h3>Description</h3>
+            <p>{{vm.resto.description}}</p>
+            <h3>Heures d'ouverture</h3>
+            <li ng-repeat="(jour, heures) in vm.resto.heures_ouv"><strong>{{jour}}</strong> {{heures}}</li>
+        </div>
+        <div class="col-sm-7">
+            <h2>Menu poutines de {{vm.titre}}</h2>
+            <div class="module-resto-vedette col-xs-12 col-sm-6" ng-repeat="poutine in vm.resto.menu_poutines">
+                <a href="#!/resto/{{vm.url}}/poutines/{{poutine._id}}"> <img src="images/logos-restos/{{poutine.img}}" alt="Image de la poutine"></a>
+                <div class="description-module-resto-accueil">
+                    <h4 class="nom-resto"><a href="#!/resto/{{vm.url}}/poutines/{{poutine._id}}">{{poutine.nom}}</a></h4>
+                    <h5>{{poutine.prix}}</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

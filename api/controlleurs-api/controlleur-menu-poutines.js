@@ -23,7 +23,7 @@ module.exports.tousPoutines = function(req, res) {
             }
             res
                 .status(200)
-                .json(resto.menu);
+                .json(resto.menu_poutines);
         });
 };
 
@@ -46,7 +46,7 @@ module.exports.unePoutine = function(req, res) {
                     .status(404)
                     .json(err);
             }
-            var menu = resto.menu;
+            var menu = resto.menu_poutines;
             var poutine;
             for (var i = 0; i < menu.length; i++) {
                 console.log(menu[i]._id);

@@ -8,9 +8,14 @@ function configurationProjet($routeProvider) {
             controller: controlleurAccueil,
             controllerAs: "vm"
         })
-        .when('/restos/:id', {
+        .when('/resto/:urlResto', {
             templateUrl: "application/restos/resto.html",
             controller: controlleurAfficherResto,
+            controllerAs: "vm"
+        })
+        .when('/resto/:urlResto/poutines/:idPoutine', {
+            templateUrl: "application/afficher-poutine/poutine.html",
+            controller: controlleurAfficherPoutine,
             controllerAs: "vm"
         });
 }
