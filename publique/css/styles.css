@@ -28,3 +28,12 @@
 .page-accueil h2 {
     margin-bottom: 5vh;
 }
+
+.zone-nom h1 {
+    display: inline-block;
+}
+
+.zone-nom .fa {
+    font-size: 1.5em;
+    margin-left: 1%;
+}

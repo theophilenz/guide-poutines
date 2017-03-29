@@ -13,6 +13,11 @@ function configurationProjet($routeProvider) {
             controller: controlleurAfficherResto,
             controllerAs: "vm"
         })
+        .when('/resto/:urlResto/poutines', {
+            templateUrl: "application/restos/resto.html",
+            controller: controlleurAfficherResto,
+            controllerAs: "vm"
+        })
         .when('/resto/:urlResto/poutines/:idPoutine', {
             templateUrl: "application/afficher-poutine/poutine.html",
             controller: controlleurAfficherPoutine,

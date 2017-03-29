@@ -1,7 +1,52 @@
 <div class="page-header" id="banner">
     <div class="row">
         <div class="col-lg-8 col-md-7 col-sm-6">
-            <h1>{{vm.titre}}</h1>
+            <h1>Fiche de la poutine «{{vm.titre}}»</h1><span class="note-moyenne-totale">{{vm.calculerMoyenneCompletePoutine()}}</span>
+            <p class="lead"><a href="#!/resto/{{vm.restoUrl}}">Retour au menu de {{vm.restoNom}}</a></p>
         </div>
     </div>
 </div>
+<div class="row">
+    <div class="col-md-6">
+        <img src="images/images-poutines/{{vm.poutine.img}}" alt="{{vm.poutine.nom}}" />
+    </div>
+    <div class="col-md-3">
+        <h3>Détails sur la poutine</h3>
+        <p>{{vm.poutine.commentaires_speciaux}}</p>
+        <h3>Formats et prix</h3>
+        <div ng-repeat="format in vm.poutine.formats_prix">
+            <span class="format-poutine">{{format[0]}}</span> <span class="prix-poutine">{{format[1]}}</span>
+        </div>
+        <h3>Ingrédients</h3>
+        <div ng-repeat="ingredient in vm.poutine.ingredients">
+            <span class="format-poutine">{{ingredient}}</span>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <h3>Notes Moyennes</h3>
+        <ul>
+            <li>Sauce- {{vm.moyenne_sauce}}</li>
+            <li>Frites- {{vm.moyenne_frites}}</li>
+            <li>Fromage- {{vm.moyenne_fromage}}</li>
+            <li>Fraîcheur- {{vm.moyenne_fraicheur}}</li>
+            <li>Originalite- {{vm.moyenne_originalite}}</li>
+            <li>Servive- {{vm.moyenne_service}}</li>
+        </ul>
+        <a href="#">Voir les avis en détail</a>
+    </div>
+</div>
+<dv class="row" id="critiques">
+    <h2>Critiques et avis ({{vm.poutine.avis.length}})</h2>
+    <div class="notes-critiques" ng-repeat="(critiques, critique) in vm.poutine.avis">
+        <h4>Par {{critique.nom}} </h4>
+        <p>{{critique.critique}}</p>
+        <ul>
+            <li>Sauce- {{critique.note_sauce}}</li>
+            <li>Frites- {{critique.note_frites}}</li>
+            <li>Fromage- {{critique.note_fromage}}</li>
+            <li>Fraîcheur- {{critique.note_fraicheur}}</li>
+            <li>Originalite- {{critique.note_originalite}}</li>
+            <li>Servive- {{critique.note_service}}</li>
+        </ul>
+    </div>
+</dv>
