@@ -1,2 +1,41 @@
 @import "_bootswatch.scss";
 @import "_variables.scss";
+.logo-site {
+    display: inline-block;
+    position: absolute;
+    top: 2px;
+    left: 50%;
+}
+
+.page-header {
+    padding-top: 10vh;
+}
+
+.module-resto-vedette img {
+    max-width: 50%;
+    float: left;
+    margin-right: 10px;
+}
+
+.module-resto-vedette {
+    margin-bottom: 10px;
+}
+
+
+/*.module-resto-accueil .desciption-module-resto-accueil {
+    float: right;
+}*/
+
+.page-accueil h3,
+.page-accueil h2 {
+    margin-bottom: 5vh;
+}
+
+.zone-nom h1 {
+    display: inline-block;
+}
+
+.zone-nom .fa {
+    font-size: 1.5em;
+    margin-left: 1%;
+}

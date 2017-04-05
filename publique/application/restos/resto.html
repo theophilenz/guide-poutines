@@ -11,25 +11,31 @@
     </div>
 </div>
 <div class="row">
-    <div class="col-sm-5">
-        <span ng-if="vm.resto.livraison">*Livraison Disponible</span>
-        <span ng-if="vm.resto.reservation">*Réservation nécessaire</span>
-        <img src="images/logos-restos/{{vm.resto.img}}" alt="{{vm.titre}}" />
-        <h3>Description</h3>
-        <p>{{vm.resto.description}}</p>
-        <h3>Particularités</h3>
-        <li ng-repeat="particularite in vm.resto.particularites">{{particularite}}</li>
-        <h3>Heures d'ouverture</h3>
-        <li ng-repeat="(jour, heures) in vm.resto.heures_ouv"><strong>{{jour}}</strong> {{heures}}</li>
-    </div>
-    <div class="col-sm-7">
-        <h2>Menu poutines de {{vm.titre}}</h2>
-        <div class="module-resto-vedette col-xs-12 col-sm-6" ng-repeat="poutine in vm.resto.menu_poutines">
-            <a href="#!/resto/{{vm.url}}/poutines/{{poutine._id}}"> <img src="images/images-poutines/{{poutine.img}}" alt="Image de la poutine"></a>
-            <div class="description-module-resto-accueil">
-                <h4 class="nom-resto"><a href="#!/resto/{{vm.url}}/poutines/{{poutine._id}}">{{poutine.nom}}</a></h4>
-                <h5>{{poutine.prix}}</h5>
+    <div class="col-sm-12 infos-resto">
+        <div class="col-sm-6">
+            <img src="images/logos-restos/{{vm.resto.url}}.png" alt="{{vm.titre}}" />
+        </div>
+        <div class="col-sm-6">
+            <p class="resto-lead">{{vm.resto.description}}</p>
+            <div class="particularites">
+                <h4>Particularités</h4>
+                <span class="infos-livraison" ng-if="vm.resto.livraison"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Livraison Disponible</span>
+                <span class="infos-reservation" ng-if="vm.resto.reservation"><i class="fa fa-lightbulb-o" aria-hidden="true"></i></i> Réservation nécessaire</span>
+                <li ng-repeat="particularite in vm.resto.particularites"><i class="fa fa-hand-o-right" aria-hidden="true"></i> {{particularite}}</li>
             </div>
+        </div>
+
+        <!--<h3>Heures d'ouverture</h3>
+        <li ng-repeat="(jour, heures) in vm.resto.heures_ouv"><strong class="jour-ouverture">{{jour}}</strong> {{heures}}</li>-->
+    </div>
+</div>
+<div class="col-sm-12 zone-menu-page-resto">
+    <h2>Les poutines offertes par {{vm.titre}}</h2>
+    <div class="module-resto-vedette col-xs-12 col-sm-6" ng-repeat="poutine in vm.resto.menu_poutines">
+        <a href="#!/resto/{{vm.url}}/poutines/{{poutine._id}}"> <img src="images/images-poutines/{{poutine.url}}.png" alt="Image de la poutine"></a>
+        <div class="description-module-resto-accueil">
+            <h4 class="nom-resto"><a href="#!/resto/{{vm.url}}/poutines/{{poutine._id}}">{{poutine.nom}}</a></h4>
+            <h5>{{poutine.prix}}</h5>
         </div>
     </div>
 </div>

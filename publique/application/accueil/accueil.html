@@ -10,14 +10,10 @@
 </div>
 <div class="liste-restos">
     <div class "row">
-        <div class="col-md-3 module-recherche-accueil">
-            <h3>Rechercher un restaurant</h3>
-            hello, voici un module de recherche
-        </div>
-        <div class="col-md-9 zone-contenu-accueil">
-            <h3>Quelques restos de poutines à découvrir</h3>
+        <div class="zone-contenu-accueil">
+            <h2>Quelques restos de poutines à découvrir</h2>
             <div class="module-resto-vedette col-xs-12 col-sm-6" ng-repeat="resto in vm.restos">
-                <a href="#!/resto/{{resto.url}}"> <img src="images/logos-restos/{{resto.img}}" alt="Logo du restaurant"></a>
+                <a href="#!/resto/{{resto.url}}"> <img src="images/logos-restos/{{resto.url}}.png" alt="Logo du restaurant"></a>
                 <div class="desciption-module-resto-accueil">
                     <h4 class="nom-resto"><a href="#!/resto/{{resto.url}}">{{resto.nom}}</a></h4>
                     <h5>{{resto.coord.ville}}</h5>

@@ -1,3 +1,24 @@
+/*Styles généraux */
+
+p,
+li {
+    font-family: 'Droid Serif', serif;
+}
+
+.navbar {
+    background-color: #EF383A;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form,
+.navbar-default {
+    border-color: #EF383A;
+}
+
 .logo-site {
     display: inline-block;
     position: absolute;
@@ -9,6 +30,17 @@
     padding-top: 10vh;
 }
 
+.page-header h1 {
+    display: inline-block;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+
+/*Page d'accueil */
+
 .module-resto-vedette img {
     max-width: 50%;
     float: left;
@@ -19,14 +51,42 @@
     margin-bottom: 10px;
 }
 
+.zone-contenu-accueil h2 {
+    padding: 3%;
+}
+
+.page-accueil .page-header {
+    background-image: url("../images/bg/bg.jpg");
+    background-repeat: no-repeat;
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.page-accueil h1,
+.page-accueil .lead {
+    background: #EF383A;
+    color: white;
+    padding: 2%;
+    position: relative;
+    top: 15vh;
+}
+
+.page-accueil .lead {
+    display: inline-block;
+}
+
 
 /*.module-resto-accueil .desciption-module-resto-accueil {
     float: right;
 }*/
 
-.page-accueil h3,
-.page-accueil h2 {
-    margin-bottom: 5vh;
+
+/*Page de resto */
+
+.infos-resto li {
+    list-style-type: none;
+    margin: 10px 0;
 }
 
 .zone-nom h1 {
@@ -36,4 +96,125 @@
 .zone-nom .fa {
     font-size: 1.5em;
     margin-left: 1%;
+}
+
+.jour-ouverture {
+    text-transform: capitalize;
+}
+
+.resto-lead {
+    font-size: 1em;
+    font-weight: bold;
+    color: #000;
+}
+
+.infos-livraison,
+.infos-reservation {
+    display: inline-block;
+    padding: 1%;
+    border-radius: 2px;
+    color: white;
+    background-color: #EF383A;
+}
+
+.zone-menu-page-resto {
+    margin-top: 5%;
+    border-top: 1px solid #c7c7c7;
+}
+
+.zone-menu-page-resto h2 {
+    margin: 2% 0;
+}
+
+.particularites {
+    background-color: #f3f3f3;
+    padding: 1%;
+}
+
+
+/*Styles de la page poutine */
+
+.notes-poutine ul {
+    list-style-type: none;
+    padding-left: 0;
+    font-weight: bold;
+}
+
+.notes-poutine li {
+    margin: 5% 0;
+}
+
+.note {
+    color: white;
+    background-color: #EF383A;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.nom-note {
+    color: white;
+    background-color: #EF383A;
+    padding: 5px 10px;
+    border: 1px solid #EF383A;
+    border-radius: 5px;
+}
+
+.page-header .note-moyenne-totale {
+    color: white;
+    background-color: #EF383A;
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.notes-critiques ul {
+    padding-left: 0;
+}
+
+.notes-critiques li {
+    display: inline-block;
+    font-weight: bold;
+    background-color: #EF383A;
+    color: white;
+    margin: 1%;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.notes-critiques .note {
+    padding: 4px;
+}
+
+.notes-critiques {
+    border-bottom: 1px dotted black;
+    display: inline-block;
+    background: #f9f9f9;
+    width: 90%;
+    padding: 2%;
+    margin: 1%;
+}
+
+#critiques h3 {
+    border-top: 1px solid #c7c7c7;
+    padding-top: 2%;
+}
+
+.image-poutine {
+    max-width: 100%;
+}
+
+
+/*Styles du footer*/
+
+footer {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 2% 0;
+}
+
+footer li {
+    display: inline-block;
+    margin: 0 2%;
 }
