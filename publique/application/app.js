@@ -22,5 +22,10 @@ function configurationProjet($routeProvider) {
             templateUrl: "application/afficher-poutine/poutine.html",
             controller: controlleurAfficherPoutine,
             controllerAs: "vm"
+        })
+        .when('/a-propos', {
+            templateUrl: "application/a-propos/a-propos.html",
+            controller: controlleurApropos,
+            controllerAs: "vm"
         });
 }
